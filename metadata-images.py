@@ -16,7 +16,3 @@ for tagId in exif_data:
     if isinstance(data, bytes):
         data = data.decode()
     print(f"{tag:25}: {data}")
-
-
-
-
